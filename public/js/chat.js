@@ -11,9 +11,9 @@ messageInput.addEventListener('keyup', e => {
 })
 
 socket.on('chatMessage', res => {
-    const messageSender = document.createElement('li')
-    messageSender.innerText = res.userid + ': '
-        const messageLi = document.createElement('li')
+    const messageSender = document.createElement('ul')
+        messageSender.innerText = res.userid + ': '
+    const messageLi = document.createElement('li')
         messageLi.innerText =res.message
     messageContainer.append(messageSender)
     messageContainer.append(messageLi)
