@@ -13,10 +13,10 @@
 * Tähtaeg 2. perioodi viimane tund
 
 
-# How to use
+# How to play
 
 ```
-Clone repository in terminal
+git clone https://github.com/ratsepmarkus/Battleships.git
 cd Battleships
 npm install
 node server.js
