@@ -13,7 +13,7 @@
 * Tähtaeg 2. perioodi viimane tund
 
 
-#How to use
+# How to use
 
 ```
 Clone repository in terminal
