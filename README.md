@@ -20,4 +20,5 @@ Clone repository in terminal
 cd Battleships
 npm install
 node server.js
+open 2 tabs in browser (localhost)[localhost:8900]
 ```
