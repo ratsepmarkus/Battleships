@@ -11,3 +11,13 @@
 * Võib teha üksi või paaris tööna
 * Esitlemisel pead olema võimelinek koodi kommenteerima
 * Tähtaeg 2. perioodi viimane tund
+
+
+#How to use
+
+```
+Clone repository in terminal
+cd Battleships
+npm install
+node server.js
+```
