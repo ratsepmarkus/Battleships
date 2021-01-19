@@ -124,22 +124,15 @@ var Game = (function() {
     }
   };
 
-  /**
-   * Set game over and show winning/losing message
-   * @param {Boolean} isWinner
-   */
   function setGameOver(isWinner) {
     gameStatus = GameStatus.gameOver;
     turn = false;
     
     if(isWinner) {
       $('#turn-status').removeClass('alert-opponent-turn').removeClass('alert-your-turn')
-              .addClass('alert-winner').html('You won! <a href="#" class="btn-leave-game">Play again</a>.');
     } else {
       $('#turn-status').removeClass('alert-opponent-turn').removeClass('alert-your-turn')
-              .addClass('alert-loser').html('You lost. <a href="#" class="btn-leave-game">Play again</a>.');
     }
-    $('.btn-leave-game').click(sendLeaveRequest);
   }
 
   /*
@@ -222,8 +215,6 @@ var Game = (function() {
           context[gridIndex].beginPath();
           context[gridIndex].moveTo(squareX + markPadding, squareY + markPadding);
           context[gridIndex].lineTo(squareX + squareWidth - markPadding, squareY + squareHeight - markPadding);
-          context[gridIndex].moveTo(squareX + squareWidth - markPadding, squareY + markPadding);
-          context[gridIndex].lineTo(squareX + markPadding, squareY + squareHeight - markPadding);
           context[gridIndex].strokeStyle = '#000000';
           context[gridIndex].stroke();
         }
