@@ -20,5 +20,5 @@ git clone https://github.com/ratsepmarkus/Battleships.git
 cd Battleships
 npm install
 node server.js
-open 2 tabs in browser (localhost:8900)
+open 2 tabs in browser (localhost:8000)
 ```
