@@ -21,7 +21,7 @@ h3 {
 .panel, .panel-body {
     padding-bottom: 0px;
     margin-bottom: 0px;
-    background-color: #e2e2e2;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
 }
 #messages-list {
     height: 95px;
